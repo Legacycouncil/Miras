@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1100px;
+}
+.navbar{
+    background: white !important;
+    padding: 15px 0;
+}
+.navbar .nav-item .nav-link{
+    font-size: 15px;
+    font-weight: 500px;
+    color: grey;
+    margin: 0 15px;
+    padding: 0;
+    transition: all .4s ease;
+}
+.navbar .nav-item .nav-link:hover{
+    color: green;
+}
+.main-btn{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 15px;
+    background: greenyellow;
+    box-shadow: 0px 10px 25px rgba(59, 146, 94, 0.15);
+    border-radius: 4px;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.main{
+    height: 90vh;
+    background: whitesmoke !important;
+}
+.main span{
+    font-size: 11px;
+    line-height: 20px;
+    color: gray;
+    background: wheat;
+    border-radius: 23px;
+    padding: 5px 20px;
+}
+.main h1{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: rgb(0, 0, 81); 
+    margin: 20px 0;
+}
+.main p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgb(105, 105, 105);
+}
+.form-sh{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 25px rgba(70, 85, 103, 0.05);
+    border-radius: 4px;
+    margin-top: 40px;
+}
+.form-control{
+    font-weight: 400px;
+    font-size: 13px;
+    line-height: 20px;
+    color: white;
+    padding: 15px 25px;
+}
+.form-btn{
+    font-weight: 500;
+    font-size: 15;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: greenyellow;
+    border-radius: 0px 4px 4px 0px;
+    height: 100%;
+    width: 100%;
+}
+.form-btn:hover{
+    color: #FFFFFF;
+    background: greenyellow;
+}
+.p-0{
+    padding: 0 !important; 
+}
+.item .photo{
+    background-color: rgba(33, 96, 255, 0.493);
+    height: 200px;
+    width: 100%;
+}
